@@ -1,0 +1,456 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&family=Josefin+Sans:wght@600&family=Oswald:wght@200;300;400&family=Prompt:wght@500;600;700;800;900&family=Rock+Salt&family=Short+Stack&family=Signika:wght@600;700&display=swap');
+
+/* 
+font-family: 'Bebas Neue', cursive;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Rock Salt', cursive;
+font-family: 'Short Stack', cursive;
+font-family: 'Signika', sans-serif; */
+
+
+* {
+    margin: 0 auto;
+    padding: 0 auto;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+
+    overflow-x: hidden;
+
+
+
+    /* background-color: #000000; */
+    background-image: url(./imgs/backgrounds/sheldon-liu-FrQKfzoTgsw-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: white; */
+}
+
+
+.verde {
+    color: #0dff00;
+    /* color: #00eaff; */
+}
+
+.rosa {
+    color: #ff00e1;
+    /* color: rgb(68, 140, 255); */
+}
+
+
+
+/*NAVBAR E LOGO*/
+
+
+
+.toogle-responsive {
+    display: none;
+}
+
+.toogle-responsive img {
+    margin-top: 1rem;
+    width: 60px;
+    height: 60px;
+
+}
+
+header {
+    width: 100vw;
+}
+
+.container-header {
+    width: 80%;
+    height: 10vh;
+    justify-content: center
+}
+
+nav {
+    width: 80%;
+    height: 10vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 1rem;
+
+    margin: 0;
+}
+
+
+.logo {
+    float: left;
+
+    font-size: 2rem;
+    font-family: 'Rock Salt', cursive;
+    font-weight: 400;
+
+    color: #0dff00;
+    cursor: default;
+
+    width: 20%;
+
+    margin-top: 2rem;
+}
+
+nav .nav-items {
+    display: flex;
+    list-style: none;
+}
+
+
+nav .nav-items .nav-item .nav-link {
+    color: white;
+
+    text-decoration: none;
+    text-transform: uppercase;
+
+    font-size: 1.6rem;
+    font-family: 'Prompt';
+    font-weight: 700;
+
+    margin: 3rem;
+    margin-right: 1.6rem;
+
+    transition: 0.3s all;
+    word-wrap: break-word;
+    float: left;
+}
+
+
+nav .nav-items .nav-item .nav-link:hover {
+
+    color: #43FF01;
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+.titulo-chamativo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 6rem;
+    margin: 5rem 0 0 0;
+
+    width: 100%;
+}
+
+.profissao {
+    margin: 0;
+
+    color: white;
+    font-size: 6.8rem;
+    font-family: 'Bebas Neue', cursive;
+
+    letter-spacing: 0.2rem;
+}
+
+/*HOME TITULO E FOTO*/
+
+
+.home {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+    height: 60vh;
+
+    margin-bottom: 10%;
+    padding: 1rem;
+}
+
+.copwrite {
+    font-family: 'Prompt';
+    width: 50%;
+
+    margin-top: 5rem;
+    margin-left: 8vw;
+
+
+}
+
+.apresentacao {
+    width: 100%;
+    color: white;
+
+    font-size: 6.4rem;
+    margin-bottom: 2rem;
+
+}
+
+.text-inicial {
+    max-width: 498px;
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+
+    float: left;
+}
+
+
+.contacts {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.icons{
+padding: 1.5rem;
+}
+
+.icone {
+    max-height: 40px;
+    max-width: 40px;
+
+    margin: 2rem;
+
+    cursor: pointer;
+
+    transition: all 0.2s;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+}
+
+
+.btn-contato {
+    margin-top: 1rem;
+
+    border: #0dff00 solid 2px;
+    border-radius: 30px;
+
+    height: 5rem;
+    width: 50%;
+
+    color: #0dff00;
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.8rem;
+
+
+    background-color: transparent;
+
+    transition: all 0.5s;
+
+    cursor: pointer;
+}
+
+.btn-contato:hover {
+    border-color: transparent;
+    color: white;
+    background-color: #0dff00;
+}
+
+
+
+/*PROEJETOS*/
+
+section .projetos {
+
+    margin-top: 6rem;
+    overflow: hidden;
+
+    width: 100%;
+    height: 1000px;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    padding: 3rem;
+
+
+
+}
+
+.titulo-projetos {
+    color: #0dff00;
+    text-transform: uppercase;
+    
+
+    font-family: 'Prompt';
+    font-size: 7rem;
+    letter-spacing: 2rem;
+
+    margin-bottom:6rem;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 1rem;
+
+}
+
+.item-card {
+
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.741);
+    background-color: rgb(255, 255, 255);
+    
+    font-family: 'Signika', sans-serif;
+    color: #0dff00;
+
+    margin: 1rem;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transition: all 0.2s;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.infos {
+    margin-top: 50%;
+}
+
+.item-card:hover {
+    transform: scale(0.97);
+    box-shadow: none;
+    border: solid #0dff00 2px;
+}
+
+
+.item-card h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+
+}
+
+
+@media(max-width:900px) {
+    .copwrite {
+        width: 80%;
+    }
+
+    .home {
+        flex-direction: column;
+    }
+
+    .btn-contato {
+        width: 100%;
+        height: 10vh;
+    }
+
+    .contacts {
+        margin: 3rem;
+    }
+    .projetos {
+        margin-top: 45rem !important;
+    }
+
+    hr{
+        position: absolute;
+        width: 100%;
+
+    }
+}
+
+@media (max-width:765px) {
+
+    nav {
+        align-items: center;
+    }
+
+    .nav-items {
+
+        margin-top: 5rem;
+        flex-direction: column;
+
+    }
+
+    .nav-link {
+        margin: 0 !important;
+        display: none;
+    }
+
+    .one,
+    .two,
+    .three {
+        background-color: #000000;
+        border-radius: 5px;
+        width: 100%;
+        height: 5px;
+        margin: 6px auto;
+    }
+
+    .menu-toggle {
+        width: 40px;
+        height: 30px;
+        margin-right: 20px;
+        float: right;
+        margin-top: 3rem;
+    }
+
+
+    .on{
+
+    }
+    .copwrite {
+        min-width: 90%;
+    }
+
+    .row-container {
+        flex-direction: column;
+    }
+
+    .titulo-projetos {
+        font-size: 4rem;
+        letter-spacing: 1.5rem;
+    }
+}
+
+
+@media(max-width:430px) {
+    .profissao {
+        font-size: 5.4rem;
+        margin-bottom: -1rem;
+
+        align-items: center;
+        justify-content: center;
+    }
+
+    .icone {
+        margin: 1rem;
+    }
+    .titulo-projetos{
+        letter-spacing: 1rem;
+    }
+
+}
