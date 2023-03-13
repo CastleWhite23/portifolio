@@ -386,6 +386,7 @@ section .projetos {
 
     nav {
         align-items: center;
+        display: none;
     }
 
     .nav-items {
@@ -394,34 +395,30 @@ section .projetos {
         flex-direction: column;
 
     }
-
-    .nav-link {
-        margin: 0 !important;
-        display: none;
+    .nav-link:hover{
+        color: #ff00e1 !important;
     }
-
     .one,
     .two,
     .three {
-        background-color: #000000;
+        background-color: #fff;
         border-radius: 5px;
         width: 100%;
         height: 5px;
         margin: 6px auto;
+
+        transition-duration: 0.3s;
     }
 
     .menu-toggle {
         width: 40px;
         height: 30px;
-        margin-right: 20px;
+        margin-right: 30px;
         float: right;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 
 
-    .on{
-
-    }
     .copwrite {
         min-width: 90%;
     }
@@ -434,6 +431,42 @@ section .projetos {
         font-size: 4rem;
         letter-spacing: 1.5rem;
     }
+
+
+
+
+    /*fullscreen*/
+
+    .menu-section.on{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        z-index: 20;
+
+        background-color: #0dff00;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+
+    .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-toggle .two{
+        opacity: 0;
+    }
+    .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+
 }
 
 
