@@ -437,7 +437,7 @@ section .projetos {
 
     /*fullscreen*/
 
-    .menu-section.on{
+    /* .menu-section.on{
 
         position: fixed;
         top: 0;
@@ -464,7 +464,7 @@ section .projetos {
     }
     .menu-section.on.menu-toggle .three{
         transform: rotate(-45deg) translate(8px, -9px);
-    }
+    } */
 
 
 }
