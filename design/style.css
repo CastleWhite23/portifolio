@@ -437,36 +437,6 @@ section .projetos {
 
     /*fullscreen*/
 
-    /* .menu-section.on{
-
-        position: fixed;
-        top: 0;
-        left: 0;
-
-        width: 100vw;
-        height: 100vh;
-
-        z-index: 20;
-
-        background-color: #0dff00;
-    }
-
-    .menu-section.on nav{
-        display: block;
-    }
-
-
-    .menu-section.on.menu-toggle .one{
-        transform: rotate(45deg) translate(7px, 7px);
-    }
-    .menu-section.on.menu-toggle .two{
-        opacity: 0;
-    }
-    .menu-section.on.menu-toggle .three{
-        transform: rotate(-45deg) translate(8px, -9px);
-    } */
-
-
 }
 
 
