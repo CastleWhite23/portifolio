@@ -30,11 +30,11 @@ body {
 
 
 
-    /* background-color: #000000; */
-    background-image: url(./imgs/backgrounds/sheldon-liu-FrQKfzoTgsw-unsplash.jpg);
+    background-color: #000000;
+    /* background-image: url(./imgs/backgrounds/sheldon-liu-FrQKfzoTgsw-unsplash.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed; */
     /* background-color: white; */
 }
 
@@ -55,16 +55,6 @@ body {
 
 
 
-.toogle-responsive {
-    display: none;
-}
-
-.toogle-responsive img {
-    margin-top: 1rem;
-    width: 60px;
-    height: 60px;
-
-}
 
 header {
     width: 100vw;
@@ -158,6 +148,31 @@ nav .nav-items .nav-item .nav-link:hover {
     letter-spacing: 0.2rem;
 }
 
+.one,
+.two,
+.three {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 5px;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+}
+
+.menu-toggle {
+    width: 40px;
+    height: 30px;
+
+    margin-right: 30px;
+    float: right;
+    margin-top: 2rem;
+    cursor: pointer;
+    display: none;
+
+    transition-duration:  0.3s;
+}
+
 /*HOME TITULO E FOTO*/
 
 
@@ -212,7 +227,13 @@ nav .nav-items .nav-item .nav-link:hover {
 padding: 1.5rem;
 }
 
-.icone {
+.icone{
+
+    background-color: white;
+    border-radius: 100%;
+    border: solid 1px white;
+
+
     max-height: 40px;
     max-width: 40px;
 
@@ -372,13 +393,12 @@ section .projetos {
         margin: 3rem;
     }
     .projetos {
-        margin-top: 45rem !important;
+        margin-top: 60rem !important;
     }
 
     hr{
         position: absolute;
         width: 100%;
-
     }
 }
 
@@ -398,25 +418,7 @@ section .projetos {
     .nav-link:hover{
         color: #ff00e1 !important;
     }
-    .one,
-    .two,
-    .three {
-        background-color: #fff;
-        border-radius: 5px;
-        width: 100%;
-        height: 5px;
-        margin: 6px auto;
 
-        transition-duration: 0.3s;
-    }
-
-    .menu-toggle {
-        width: 40px;
-        height: 30px;
-        margin-right: 30px;
-        float: right;
-        margin-top: 1rem;
-    }
 
 
     .copwrite {
@@ -436,6 +438,49 @@ section .projetos {
 
 
     /*fullscreen*/
+
+
+
+
+        
+ .menu-section.on{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        z-index: 10;
+
+        background-color: #12ac0a;
+    }
+
+    .menu-section.on nav{
+        display: block;
+    }
+
+    .menu-section .menu-toggle{
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle{
+        margin-right: 60px;
+    }
+
+
+    .menu-section.on .menu-toggle .one{
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+    .menu-section.on .menu-toggle .two{
+        opacity: 0;
+    }
+    .menu-section.on .menu-toggle .three{
+        transform: rotate(-45deg) translate(8px, -9px);
+    } 
+
+
 
 }
 
