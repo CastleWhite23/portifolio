@@ -9,7 +9,6 @@ toggle.addEventListener('click', abrir_menu)
 function abrir_menu(){
     
     menu_section.classList.toggle("on", show)
-
     show = !show;
 }
 

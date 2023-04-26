@@ -1,0 +1,92 @@
+section .projetos {
+
+    margin-top: 6rem;
+    overflow: hidden;
+
+    width: 100%;
+    height: 1000px;
+    padding: 3rem;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    border-top: solid #fff 2px;
+
+}
+
+.titulo-projetos {
+    color: #0dff00;
+    text-transform: uppercase;
+
+
+    font-family: 'Prompt';
+    font-size: 7rem;
+    letter-spacing: 2rem;
+
+    margin-bottom: 6rem;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.row-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+
+    padding: 1rem;
+
+}
+
+.item-card {
+
+    border-radius: 15px;
+    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.741);
+    background-color: rgb(255, 255, 255);
+
+    font-family: 'Signika', sans-serif;
+    color: #0dff00;
+
+    margin: 1rem;
+    width: 100%;
+    height: 100%;
+
+    cursor: pointer;
+
+    transition: all 0.2s;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+
+.infos {
+    margin-top: 50%;
+}
+
+.item-card:hover {
+    box-shadow: none;
+    border: solid #0dff00 2px;
+}
+
+
+.item-card h1 {
+    font-size: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #000000;
+
+}
