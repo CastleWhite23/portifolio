@@ -1,10 +1,8 @@
 @media (max-width:765px) {
-
     .container-header {
         width: 100%;
         height: 10vh;
-
-        padding: 0 0 0 2rem;
+        padding: 0 !important;
         align-items: center;
 
         position: fixed;
@@ -20,15 +18,17 @@
     }
 
     .nav-items {
-
         margin-top: 5rem;
         flex-direction: column;
-
-
+        padding: 0;
     }
 
     .nav-link {
         color: white;
+        margin: 3rem;
+        margin-right: 1.6rem !important;
+        overflow: hidden;
+        transition: 0.3s all;
     }
 
     .nav-link:hover {
@@ -42,7 +42,6 @@
     .copwrite {
         min-width: 90%;
     }
-
 
     /*fullscreen*/
 
@@ -58,20 +57,22 @@
 
         z-index: 11;
 
-        background: rgb(81, 18, 25);
-        background: linear-gradient(0deg, rgba(81, 18, 25, 1) 0%, rgba(0, 0, 0, 1) 84%);
-        
+        background: rgb(255, 255, 255);
+        background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(81, 18, 25, 1) 84%);   
     }
-
-
     .menu-section.on nav {
         display: block;
+        
     }
 
     .menu-section .menu-toggle {
         display: block;
     }
 
+    .menu-section.on .menu-toggle {
+        display: block;
+        margin-right: 17px !important;
+    }
 
 
     .menu-section.on .menu-toggle .one {
@@ -85,15 +86,5 @@
     .menu-section.on .menu-toggle .three {
         transform: rotate(45deg) translate(-8px, 9px);
     }
-
-
-}
-
-@media (max-width:420px){
-        /*Adicionar os links de contato na navbar*/
-        .contacts{
-            bottom: 0;
-            left:0;
-        }   
 }
 
