@@ -1,0 +1,26 @@
+
+/*LINKS E ICONES*/
+
+.icone {
+    
+    border-radius: 100%;
+    
+    background-color: #fff;
+    border: solid 1.5px #eb6969;
+
+    max-height: 35px;
+    max-width: 35px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    margin-right: 2rem;
+    margin-top: 10px;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+    background-color: #eb6969;
+    border: solid 1.5px #fff;
+    
+}

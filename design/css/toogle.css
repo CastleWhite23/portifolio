@@ -1,0 +1,26 @@
+
+/*TOOGLE*/
+
+.one,
+.two,
+.three {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 5px;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+}
+
+.menu-toggle {
+    width: 40px;
+    cursor: pointer;
+    display: none;
+
+    right: 0;
+    top: 0;
+
+    margin: 10px 20px ;
+    position: absolute;
+}
