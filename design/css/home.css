@@ -1,0 +1,59 @@
+
+/* HOME */
+section.titulo-chamativo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    font-family: 'Audiowide', cursive;
+    font-weight: 700;
+    
+    width: 100%;
+    height: 100vh;
+}
+
+.titulo-chamativo h1, h4, h5{
+    z-index: -1;
+    margin-top: 1rem;
+    position: relative;
+
+    color: #000;
+    letter-spacing: 0.2rem;
+    text-shadow: 
+    -1px -1px 1px #eb6969,
+    1px -1px 1px #eb6969,
+    -1px 1px 1px #eb6969,
+    1px 1px 1px #eb6969;
+
+}
+
+.titulo-chamativo h1{
+    font-size: 7rem;
+    text-align: center;
+}
+
+.titulo-chamativo h4{
+    color: #000000;
+    font-size: 2.5rem;
+    letter-spacing: 0.5rem;
+    font-family: 'Bebas Neue', cursive;
+}
+.destaque-vermelho{
+    letter-spacing: 0.5rem;
+
+}
+
+.profissao {
+
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    font-family: 'Itim', cursive;
+
+    letter-spacing: 0.2rem;
+
+    padding: 2rem;
+
+
+    /* Define a ordem de sobreposição do elemento filho */
+
+}

@@ -1,0 +1,146 @@
+
+
+
+
+
+/* MENU RESPONSIVO e ORGANIZADO */
+
+@media(max-width:900px) {
+    .copwrite {
+        width: 80%;
+    }
+
+    .sobre-mim {
+        flex-direction: column;
+    }
+
+    .contacts {
+        margin: 3rem;
+    }
+
+    .projetos {
+        margin-top: 60rem !important;
+    }
+
+    main hr {
+        position: absolute;
+        width: 100%;
+    }
+}
+
+@media (max-width:765px) {
+
+    .container-header {
+        width: 100%;
+        height: 10vh;
+
+        padding: 0 0 0 2rem;
+        align-items: center;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        background-color: #000000;
+    }
+
+    nav {
+        align-items: center;
+        display: none;
+    }
+
+    .nav-items {
+
+        margin-top: 5rem;
+        flex-direction: column;
+
+
+    }
+
+    .nav-link {
+        color: white;
+    }
+
+    .nav-link:hover {
+        color: #fdfdfd !important;
+    }
+
+    .titulo-chamativo{
+        text-align: center;
+    }
+
+    .copwrite {
+        min-width: 90%;
+    }
+
+    .row-container {
+        flex-direction: column;
+    }
+
+    .titulo-projetos {
+        font-size: 4rem;
+        letter-spacing: 1.5rem;
+    }
+
+    /*fullscreen*/
+
+    .menu-section.on {
+        transition-duration: 0.3s;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100%;
+        height: 100%;
+
+        z-index: 11;
+
+        background: rgb(81, 18, 25);
+        background: linear-gradient(0deg, rgba(81, 18, 25, 1) 0%, rgba(0, 0, 0, 1) 84%);
+        
+    }
+
+
+    .menu-section.on nav {
+        display: block;
+    }
+
+    .menu-section .menu-toggle {
+        display: block;
+    }
+
+    .menu-section.on .menu-toggle {
+        margin-right: 60px;
+    }
+
+
+    .menu-section.on .menu-toggle .one {
+        transform: rotate(45deg) translate(7px, 7px);
+    }
+
+    .menu-section.on .menu-toggle .two {
+        opacity: 0;
+    }
+
+    .menu-section.on .menu-toggle .three {
+        transform: rotate(-45deg) translate(8px, -9px);
+    }
+
+
+
+}
+
+
+@media(max-width:430px) {
+
+    .titulo-chamativo h1{
+        font-size: 40px;
+        margin-bottom: 2rem;
+    }
+    .copwrite {
+        text-align: center;
+        margin: 1rem 0;
+    }
+
+}
