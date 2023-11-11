@@ -1,0 +1,116 @@
+/*NAVBAR */
+.container-header {
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(0, 0, 0);
+    position: fixed;
+
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+nav {
+    width: 100%;
+    height: 9vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 2rem;
+    margin: 0;
+}
+
+nav .nav-items {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    transition: 0.3s all;
+}
+
+nav .nav-items .nav-item .nav-link {
+    text-shadow: 
+    -1px -1px 0 #eb6969,
+    1px -1px 0 #eb6969,
+    -1px 1px 0 #eb6969,
+    1px 1px 0 #eb6969;
+    
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+    font-size: 1.25rem;
+    font-family: 'Prompt';
+    font-weight: 700;
+
+    margin-right: 6rem;
+
+    word-wrap: break-word;
+    float: left;
+    position: relative;
+}
+
+nav .nav-items .nav-item .nav-link::after{
+    content: " ";
+    width: 0%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #eb6969;
+    transition: 0.3s all ease-in-out;
+    position: absolute;
+
+}
+
+nav .nav-items .nav-item .nav-link:hover::after {
+    width: 100%;
+}
+
+/*TOOGLE*/
+
+.one,
+.two,
+.three {
+    background-color: #fff;
+    border-radius: 5px;
+    width: 100%;
+    height: 5px;
+    margin: 6px auto;
+
+    transition-duration: 0.3s;
+}
+
+.menu-toggle {
+    width: 40px;
+    cursor: pointer;
+    display: none;
+
+    right: 0;
+    top: 0;
+
+    margin: 10px 20px ;
+    position: absolute;
+}
+
+/*LINKS E ICONES*/
+
+.icone {
+    background-color: #ffffff;
+    border-radius: 100%;
+    border: solid 1.5px #eb6969;
+
+    max-height: 35px;
+    max-width: 35px;
+
+    cursor: pointer;
+    transition: all 0.2s;
+
+    margin-right: 2rem;
+    margin-top: 10px;
+}
+
+.icone:hover {
+    transform: scale(1.1);
+}

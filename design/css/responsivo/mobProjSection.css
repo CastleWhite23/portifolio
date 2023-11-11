@@ -1,0 +1,26 @@
+@media(max-width:900px) {
+    .projetos {
+        margin-top: 60rem !important;
+    }
+
+}
+
+@media (max-width:765px) {
+
+    .row-container {
+        flex-direction: column;
+    }
+
+    .titulo-projetos {
+        font-size: 4rem;
+        letter-spacing: 1.5rem;
+    }
+
+}
+
+@media(max-width:430px) {   
+    .titulo-projetos {
+        letter-spacing: 1rem;
+    }
+
+}
