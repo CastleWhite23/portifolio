@@ -30,13 +30,9 @@ nav .nav-items {
 }
 
 nav .nav-items .nav-item .nav-link {
-    text-shadow: 
-    -1px -1px 0 #eb6969,
-    1px -1px 0 #eb6969,
-    -1px 1px 0 #eb6969,
-    1px 1px 0 #eb6969;
+
     
-    color: #ffffff;
+    color: #eb6969;
     text-decoration: none;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
@@ -97,8 +93,10 @@ nav .nav-items .nav-item .nav-link:hover::after {
 /*LINKS E ICONES*/
 
 .icone {
-    background-color: #ffffff;
+    
     border-radius: 100%;
+    
+    background-color: #fff;
     border: solid 1.5px #eb6969;
 
     max-height: 35px;
@@ -113,4 +111,7 @@ nav .nav-items .nav-item .nav-link:hover::after {
 
 .icone:hover {
     transform: scale(1.1);
+    background-color: #eb6969;
+    border: solid 1.5px #fff;
+    
 }
