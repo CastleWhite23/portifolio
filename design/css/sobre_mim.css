@@ -4,28 +4,58 @@
 
 .sobre-mim {
     display: flex;
-    align-items: center;
 
     width: 100%;
     height: 100vh;
 
     margin-bottom: 10%;
 
+
+
 }
 
-.copwrite {
+
+
+.sobre-mim .copwrite {
     font-family: 'Prompt';
     width: 50%;
 
-    margin-top: 5rem;
+    margin-top: 10rem;
     margin-left: 8vw;
 }
 
+.sobre-mim .copwrite h1{
+     
+    color: #eb6969;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+    font-size: 4rem;
+    font-family: 'Prompt';
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+
+}
+
+
+
+
 .text-inicial {
-    max-width: 498px;
+    max-width: 600px;
     color: #fff;
     font-size: 2rem;
     margin-bottom: 2rem;
 
     float: left;
+}
+
+.foto{
+    margin-top: 10rem;
+    
+}
+.foto  img{
+    border-radius: 100%;
+    width: 85%;
 }

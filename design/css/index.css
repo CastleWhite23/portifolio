@@ -5,6 +5,7 @@
 @import url(./projects.css);
 @import url(./home.css);
 @import url(./sobre_mim.css);
+@import url(./icones.css);
 @import url(./navbar.css);
 
 /* RESPONSIVIDADE */
@@ -26,12 +27,21 @@ font-family: 'Prompt', sans-serif;
     padding: 0 auto;
     box-sizing: border-box;
 }
+main{
+
+    max-width: 1220px;
+
+}
 
 html {
+
     font-size: 62.5%;
     scroll-behavior: smooth;
+
 }
+
 body {
+
     width: 100%;
     height: 100vh;
     margin: 0 auto;
