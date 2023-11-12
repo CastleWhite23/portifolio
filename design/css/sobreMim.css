@@ -1,0 +1,45 @@
+
+
+/* SOBRE MIM APRESENTAÇÃO */
+@import url(./hardSkills.css);
+@import url(./softSkills.css);
+
+.sobre-mim {
+    width: 100%;
+    margin-bottom: 10%;
+
+}
+
+.sobre-mim .apresentacao{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10rem;
+}
+
+.sobre-mim .apresentacao .copwrite {
+    font-family: 'Prompt';
+}
+
+.sobre-mim  h1{ 
+    color: #eb6969;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+
+    font-size: 4rem;
+    font-family: 'Prompt';
+    font-weight: 700;
+
+    margin-bottom: 1rem;
+}
+
+.text-inicial {
+    max-width: 600px;
+    color: #fff;
+    font-size: 2rem;
+}
+
+.foto  img{
+    border-radius: 100%;
+    width: 200px;
+}
