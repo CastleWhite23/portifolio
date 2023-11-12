@@ -4,18 +4,16 @@
 @import url(./hardSkills.css);
 @import url(./softSkills.css);
 
+
+
 .sobre-mim {
     width: 100%;
-    margin-bottom: 10%;
-
 }
-
 .sobre-mim .apresentacao{
     display: flex;
     flex-wrap: wrap;
     margin-top: 10rem;
 }
-
 .sobre-mim .apresentacao .copwrite {
     font-family: 'Prompt';
 }

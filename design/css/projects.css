@@ -1,10 +1,7 @@
-section .projetos {
-
-    margin-top: 6rem;
-    overflow: hidden;
+.projetos {
 
     width: 100%;
-    height: 1000px;
+    height: 100%;
     padding: 3rem;
 
     display: flex;
@@ -12,6 +9,8 @@ section .projetos {
     flex-direction: column;
 
     border-top: solid #fff 2px;
+
+    margin-top: 10rem;
 
 }
 
@@ -25,6 +24,7 @@ section .projetos {
     letter-spacing: 2rem;
 
     margin-bottom: 6rem;
+    margin-top: 7rem;
 }
 
 .container {
@@ -39,7 +39,7 @@ section .projetos {
 
 .row-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
 
     width: 100%;
@@ -51,24 +51,25 @@ section .projetos {
 
 .item-card {
 
-    border-radius: 15px;
-    box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.741);
+    border-radius: 15px 0px 15px 0px;
     background-color: rgb(255, 255, 255);
 
     font-family: 'Signika', sans-serif;
     color: #eb6969;
 
     margin: 1rem;
-    width: 100%;
-    height: 100%;
+    width: 35%;
+    height: 500px;
 
     cursor: pointer;
 
-    transition: all 0.2s;
+    
 
     display: flex;
     justify-content: center;
     flex-direction: column;
+
+    transition: .2s all ease-in-out;
 
 }
 
@@ -78,8 +79,10 @@ section .projetos {
 }
 
 .item-card:hover {
-    box-shadow: none;
-    border: solid #eb6969 2px;
+    opacity: .5;
+   transform: scale(1.05);
+   z-index: 1;
+
 }
 
 
