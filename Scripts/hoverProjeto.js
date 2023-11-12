@@ -1,6 +1,6 @@
 const btnVerMais = document.querySelector(".btn-more");
 const cardDestaque = document.querySelectorAll(".item-card-destaque");
-console.log(cardDestaque)
+
 
 
 
