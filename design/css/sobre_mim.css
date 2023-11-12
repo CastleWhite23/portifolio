@@ -110,6 +110,8 @@
 }
 
 /* HARD SKILLS */
+
+
 .hard-skills {
     margin-top: 17rem;
     width: 90%;
@@ -118,3 +120,27 @@
 .hard-skills h1{
     margin-left: 4rem;
 }
+
+.hard-skills .icons-skill{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.hard-skills .icons-skill .icon-skill{
+    width: 120px;
+    height: 120px;
+    background-color: #fff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 15px 0px 0px 0px;
+    border-bottom:#eb6969 5px solid;
+
+    font-size: 20px;
+}
+
