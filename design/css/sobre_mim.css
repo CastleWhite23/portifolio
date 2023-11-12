@@ -126,6 +126,7 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
 }
 
 
@@ -137,10 +138,33 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 
     border-radius: 15px 0px 0px 0px;
     border-bottom:#eb6969 5px solid;
 
-    font-size: 20px;
+    font-size: 15px;
+    font-family: 'Prompt';
+    transition: .2s all ease-in-out;
+}
+
+.hard-skills .icons-skill .icon-skill .titulo-icon{
+    color: #202020;
+}
+
+.hard-skills .icons-skill .icon-skill i{
+    font-size: 30px;
+    color: #eb6969;
+
+}
+
+.hard-skills .icons-skill .icon-skill img{
+    width: 50px;
+}
+
+
+
+.hard-skills .icons-skill .icon-skill:hover{
+    transform: scale(.9);
 }
 
