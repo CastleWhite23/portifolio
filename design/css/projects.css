@@ -49,9 +49,10 @@
 
 }
 
-.item-card {
+.item-card-destaque {
 
     border-radius: 15px 0px 15px 0px;
+    border-right: #eb6969 5px solid;
     background-color: rgb(255, 255, 255);
 
     font-family: 'Signika', sans-serif;
@@ -63,7 +64,7 @@
 
     cursor: pointer;
 
-    
+
 
     display: flex;
     justify-content: center;
@@ -78,18 +79,50 @@
     margin-top: 50%;
 }
 
-.item-card:hover {
+.item-card-destaque:hover {
     opacity: .5;
-   transform: scale(1.05);
-   z-index: 1;
+    transform: scale(1.05);
+    z-index: 1;
 
 }
 
 
-.item-card h1 {
+.item-card-destaque h1 {
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
     color: #000000;
 
+}
+
+.item-card-destaque .btn-more {
+    width: 150px;
+    height: 50px;
+    background-color: #eb6969;
+    color: #fff;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    margin-top: 3rem;
+    z-index: 2;
+    
+
+}
+
+.none{
+    visibility: hidden;
+ 
+}
+
+.row-container p span{
+    color: #eb6969;
+}
+
+.row-container p {
+    margin-top: 10rem;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Prompt';
 }
