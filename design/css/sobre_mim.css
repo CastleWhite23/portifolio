@@ -1,35 +1,25 @@
 
 
 /*SOBRE MIM HABILIDADES HISTORICO SLA*/
+/* SOBRE MIM APRESENTAÇÃO */
 
 .sobre-mim {
-    display: flex;
-    flex-direction: column;
-
     width: 100%;
-
     margin-bottom: 10%;
 
-
-
 }
-
 
 .sobre-mim .apresentacao{
-    width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10rem;
 }
+
 .sobre-mim .apresentacao .copwrite {
     font-family: 'Prompt';
-    width: 50%;
-
-    margin-top: 10rem;
-    margin-left: 8vw;
 }
 
-.sobre-mim  h1{
-     
+.sobre-mim  h1{ 
     color: #eb6969;
     text-decoration: none;
     text-transform: uppercase;
@@ -40,52 +30,91 @@
     font-weight: 700;
 
     margin-bottom: 1rem;
-
 }
-
-
-
 
 .text-inicial {
     max-width: 600px;
     color: #fff;
     font-size: 2rem;
-    margin-bottom: 2rem;
-
-
 }
 
-.foto{
-    margin-top: 10rem;
-    
-}
 .foto  img{
     border-radius: 100%;
-    width: 85%;
+    width: 200px;
 }
 
 
-.soft-skills{
 
-    margin-top: 10rem;
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 10rem;
-    width: 100%;
+/* SOFT SKILLS */
+.sobre-mim .soft-skills{
+    margin-top: 17rem;
+    width: 90%;
+    
+
 
 }
+
+
+.sobre-mim .soft-skills .titulo{
+    margin-left: 4rem;
+}
+
+
+
 
 .soft-skills .cards{
-    width: 87%;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
     margin-top: 1rem;
+    font-family: 'Prompt';
 }
+
 .soft-skills .card{
-    max-width: 300px;
-    width: 300px;
-    height: 100px;
-    border: 1px solid #fff;
-    color: #fff; 
-    border-radius: 5px;
+    max-width: 510px;
+    width: 510px;
+    height: 250px;
+
+
+    color: #000;
+    font-size: 20px;
+    padding: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+
+    border: #eb6969 solid 2px;
+    border-radius: 15px;
+}
+.soft-skills .card .card-icon{
+    font-size: 5rem;
+    color: #eb6969;
+    margin-right: 4rem;
+    
+}
+
+.soft-skills .card .card-info .card-title{
+    font-size: 12px;
+    color: #202020;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    
+    font-weight: 700;
+}
+
+.soft-skills .card .card-info .card-text{
+    font-size: 15px;
+    color: #303030;
+}
+
+/* HARD SKILLS */
+.hard-skills {
+    margin-top: 17rem;
+    width: 90%;
+}
+
+.hard-skills h1{
+    margin-left: 4rem;
 }
