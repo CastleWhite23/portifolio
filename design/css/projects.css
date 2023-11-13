@@ -137,8 +137,7 @@
 }
 
 .item-card-todos{
-    margin-top: 10rem;
-    width: 20%;
+    width: 30%;
     height: 200px;
     background-color: #fff;
     display: flex;
@@ -152,6 +151,7 @@
     color: #303030;
     font-family: 'Prompt';
     transition: .2s all ease-in-out;
+    margin-top: 5rem;
 }
 
 .item-card-todos:hover{
@@ -159,5 +159,6 @@
 }
 
 .wrap{
+    margin-top: 10rem;
     flex-wrap: wrap;
 }

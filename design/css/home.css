@@ -30,8 +30,11 @@ section.titulo-chamativo {
 }
 
 .titulo-chamativo h1{
-    font-size: 7rem;
+    font-size: 5rem;
     text-align: center;
+
+    animation: blinkTextCursor 800ms steps(44) infinite normal;
+    display: block;
 }
 
 .titulo-chamativo h4{
@@ -59,3 +62,12 @@ section.titulo-chamativo {
     /* Define a ordem de sobreposição do elemento filho */
 
 }
+
+@keyframes blinkTextCursor {
+    from {
+      border-right-color: black;
+    }
+    to {
+      border-right-color: transparent;
+    }
+  }
