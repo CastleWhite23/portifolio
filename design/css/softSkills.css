@@ -2,14 +2,16 @@
 
 /* SOFT SKILLS */
 .sobre-mim .soft-skills{
-    margin-top: 17rem;
+    margin-top: 8rem;
     width: 90%;
     
 }
 
 
 .sobre-mim .soft-skills .titulo{
-    margin-left: 4rem;
+    /* margin-left: 4rem; */
+    text-align: center;
+    margin-bottom: 4rem;
 }
 
 
@@ -34,10 +36,12 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: #303030;
 
     border: #eb6969 solid 2px;
     border-radius: 15px;
+
+    margin-bottom: 2rem;
 }
 .soft-skills .card .card-icon{
     font-size: 5rem;
@@ -48,7 +52,7 @@
 
 .soft-skills .card .card-info .card-title{
     font-size: 12px;
-    color: #202020;
+    color: #fff;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
     
@@ -57,5 +61,5 @@
 
 .soft-skills .card .card-info .card-text{
     font-size: 15px;
-    color: #303030;
+    color: #909090;
 }

@@ -10,7 +10,6 @@
 
     border-top: solid #fff 2px;
 
-    margin-top: 10rem;
 
 }
 
@@ -24,7 +23,6 @@
     letter-spacing: 2rem;
 
     margin-bottom: 6rem;
-    margin-top: 7rem;
 }
 
 .container {
@@ -42,6 +40,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    
 
     width: 100%;
     height: 100%;
@@ -54,18 +53,15 @@
 
     border-radius: 15px 0px 15px 0px;
     border-right: #eb6969 5px solid;
-    background-color: rgb(255, 255, 255);
+    background-color: #202020;
 
     font-family: 'Signika', sans-serif;
     color: #eb6969;
 
     margin: 1rem;
-    width: 35%;
+    width: 40%;
+    flex-wrap: wrap;
     height: 500px;
-
-    
-
-
 
     display: flex;
     justify-content: center;
@@ -76,12 +72,9 @@
 }
 
 
-.infos {
-    margin-top: 50%;
-}
 
 .item-card-destaque:hover {
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: #404040;
     transform: scale(1.05);
     z-index: 1;
 
@@ -92,7 +85,7 @@
     font-size: 2rem;
     text-transform: uppercase;
     letter-spacing: 0.5rem;
-    color: #000000;
+    color: #eb6969;
 
 }
 
@@ -114,8 +107,7 @@
 
 
 .item-card-destaque .btn-more:hover {
-  background-color: #fff;
-  border: #eb6969 3px solid;
+  background-color: #202020;
   color: #eb6969;
 
 }
@@ -130,28 +122,29 @@
 }
 
 .row-container p {
-    margin-top: 10rem;
+    margin-top: 7rem;
+    margin-bottom: 4rem;
     font-size: 30px;
-    color: #fff;
+    color: #202020;
     font-family: 'Prompt';
+    text-align: center;
 }
 
 .item-card-todos{
-    width: 30%;
+    width: 70%;
     height: 200px;
-    background-color: #fff;
+    background-color: #303030;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-right: 1rem;
+    margin: 1rem;
     font-size: 20px;
     border-radius: 0px 15px 0px 15px;
-    border-left: 2px solid #eb6969;
+    border-left: 3px solid #eb6969;
     text-transform: uppercase;
-    color: #303030;
+    color: #fff;
     font-family: 'Prompt';
     transition: .2s all ease-in-out;
-    margin-top: 5rem;
 }
 
 .item-card-todos:hover{
@@ -159,6 +152,6 @@
 }
 
 .wrap{
-    margin-top: 10rem;
+    
     flex-wrap: wrap;
 }

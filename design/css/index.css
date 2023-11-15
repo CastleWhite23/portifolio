@@ -48,8 +48,9 @@ body {
 
     overflow-x: hidden;
 
-    background: rgb(81, 18, 25);
-    background: linear-gradient(0deg, rgb(32, 8, 8) 0%, rgba(0, 0, 0, 1) 84%);
+    /* background: rgb(81, 18, 25);
+    background: linear-gradient(0deg, rgb(32, 8, 8) 0%, rgba(0, 0, 0, 1) 84%); */
+    background-color: #fff;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
