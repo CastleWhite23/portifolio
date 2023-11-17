@@ -1,18 +1,41 @@
 @media (max-width:1300px) {
- 
+
     .hard-skills .icons-skill {
         max-width: 600px;
     }
 }
 
+/* tablet */
+
 @media (max-width:900px) {
     .sobre-mim .apresentacao .copwrite {
         text-align: center;
+        padding: 1rem;
     }
 }
+
+
+/* Celular */
 
 @media (max-width:632px) {
     .hard-skills .icons-skill {
         max-width: 300px;
     }
+
+    .sobre-mim .apresentacao .copwrite {
+        margin: 0 auto;
+
+    }
+
+    .soft-skills .card {
+        flex-direction: column;
+        text-align: center;
+        height: 300px;
+    }
+
+    .soft-skills .card .card-icon{
+      margin: 0 auto;
+              
+    }
+    
 }

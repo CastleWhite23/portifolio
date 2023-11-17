@@ -1,6 +1,6 @@
-@media(max-width:1200px) {
+@media(max-width:960px) {
     .item-card-destaque {
-        width: 50%;
+        max-width: 50%;
     }
 
 }  
