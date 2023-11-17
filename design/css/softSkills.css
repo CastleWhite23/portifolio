@@ -2,23 +2,22 @@
 
 /* SOFT SKILLS */
 .sobre-mim .soft-skills{
-    margin-top: 8rem;
+    margin-top: 6rem;
     width: 90%;
     
 }
 
 
 .sobre-mim .soft-skills .titulo{
-    /* margin-left: 4rem; */
     text-align: center;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
 }
 
 
 .soft-skills .cards{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 1rem;
     font-family: 'Prompt';
 }

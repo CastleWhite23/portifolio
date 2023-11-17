@@ -4,7 +4,7 @@
 
 
 .hard-skills {
-    margin-top: 8rem;
+    margin-top: 10rem;
     width: 90%;
 }
 
@@ -15,12 +15,13 @@
 
 .hard-skills .icons-skill{
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    
     padding: 1rem;
     max-width: 1200px;
-    width: 300px;
+    
 }
 
 

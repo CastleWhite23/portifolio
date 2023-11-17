@@ -1,0 +1,18 @@
+@media (max-width:1300px) {
+ 
+    .hard-skills .icons-skill {
+        max-width: 600px;
+    }
+}
+
+@media (max-width:900px) {
+    .sobre-mim .apresentacao .copwrite {
+        text-align: center;
+    }
+}
+
+@media (max-width:632px) {
+    .hard-skills .icons-skill {
+        max-width: 300px;
+    }
+}

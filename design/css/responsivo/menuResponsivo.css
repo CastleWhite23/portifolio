@@ -1,8 +1,5 @@
 
 
-
-
-
 /* MENU RESPONSIVO e ORGANIZADO */
 
 @media(max-width:900px) {
@@ -19,7 +16,7 @@
     }
 
     .projetos {
-        margin-top: 60rem !important;
+        margin-top: 10rem;
     }
 
     main hr {
@@ -41,7 +38,6 @@
         top: 0;
         left: 0;
 
-        background-color: #000000;
     }
 
     nav {

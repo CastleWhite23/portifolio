@@ -16,7 +16,7 @@
 }
 .sobre-mim .apresentacao .copwrite {
     font-family: 'Prompt';
-    text-align: center;
+    
 }
 
 .sobre-mim  h1{ 
@@ -29,7 +29,7 @@
     font-family: 'Prompt';
     font-weight: 700;
 
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 
 .text-inicial {
@@ -42,4 +42,5 @@
     margin-top: 3rem;
     border-radius: 100%;
     width: 200px;
+    border: 2px solid #eb6969;
 }
