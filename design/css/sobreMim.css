@@ -8,11 +8,14 @@
 
 .sobre-mim {
     width: 100%;
+    
 }
 .sobre-mim .apresentacao{
     display: flex;
     flex-wrap: wrap;
-    margin-top: 10rem;
+    padding: 15rem 0rem 15rem 0rem;
+    border-bottom: 1px solid #303030;
+
 }
 .sobre-mim .apresentacao .copwrite {
     font-family: 'Prompt';

@@ -2,8 +2,9 @@
 
 /* SOFT SKILLS */
 .sobre-mim .soft-skills{
-    margin-top: 6rem;
     width: 90%;
+    padding: 15rem 0rem 15rem 0rem;
+    border-bottom: 1px solid #303030;
     
 }
 

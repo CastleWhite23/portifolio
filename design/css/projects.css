@@ -9,9 +9,7 @@
     flex-direction: column;
 
     border-top: solid #fff 2px;
-
-    margin-top: 10rem;
-
+   
 
 }
 
@@ -48,6 +46,7 @@
     flex-wrap: wrap;
 
     padding: 1rem;
+    
 
 }
 
@@ -55,7 +54,7 @@
 
     border-radius: 15px 0px 15px 0px;
     border-right: #eb6969 5px solid;
-    background-color: #202020;
+    background-color: #303030;
 
     font-family: 'Signika', sans-serif;
     color: #eb6969;
