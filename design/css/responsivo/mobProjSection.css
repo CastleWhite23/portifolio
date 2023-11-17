@@ -5,6 +5,14 @@
 
 }  
 
+@media (max-width:950px) {
+
+    .item-card-todos {
+        width: 90%;
+    }
+
+} 
+
 @media (max-width:800px) {
 
     .item-card-destaque {

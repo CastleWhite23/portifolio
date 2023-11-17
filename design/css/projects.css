@@ -135,7 +135,8 @@
 }
 
 .item-card-todos{
-    width: 70%;
+    max-width: 100%;
+    width: 40%;
     height: 200px;
     
     background-color: #303030;
